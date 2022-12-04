@@ -26,6 +26,7 @@
 		1849976F293A2D580065B6F4 /* EnvironmentConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849975C293A1B9D0065B6F4 /* EnvironmentConstants.swift */; };
 		18499770293A30750065B6F4 /* CurrenciesNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18499759293A12FE0065B6F4 /* CurrenciesNetworkManager.swift */; };
 		18499774293A31700065B6F4 /* RatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18499771293A31620065B6F4 /* RatesViewModel.swift */; };
+		18499778293CE9120065B6F4 /* CurrenciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18499776293CE8EF0065B6F4 /* CurrenciesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		18499765293A262B0065B6F4 /* CurrenciesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesScreen.swift; sourceTree = "<group>"; };
 		18499767293A26820065B6F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		18499771293A31620065B6F4 /* RatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesViewModel.swift; sourceTree = "<group>"; };
+		18499776293CE8EF0065B6F4 /* CurrenciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				18499765293A262B0065B6F4 /* CurrenciesScreen.swift */,
+				18499776293CE8EF0065B6F4 /* CurrenciesViewModel.swift */,
 			);
 			path = CurrenciesScreen;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				18499770293A30750065B6F4 /* CurrenciesNetworkManager.swift in Sources */,
 				1849976C293A2BCA0065B6F4 /* CurrencyResult.swift in Sources */,
 				18499769293A2BB40065B6F4 /* CurrenciesScreen.swift in Sources */,
+				18499778293CE9120065B6F4 /* CurrenciesViewModel.swift in Sources */,
 				1803A2DA293A058F0038487F /* ContentView.swift in Sources */,
 				1849976D293A2D520065B6F4 /* Constants.swift in Sources */,
 				1803A2D8293A058F0038487F /* CurrenciesConverterApp.swift in Sources */,

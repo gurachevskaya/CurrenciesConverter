@@ -20,10 +20,12 @@ struct RatesView: View {
                     }
                 }
             } else {
-                Text(viewModel.fetchState == .fetching ? "Fetching..." : "Fetch failed")
+                Text(viewModel.fetchState == .fetching
+                     ? "Fetching..."
+                     : "Fetch failed")
             }
         }
-        .navigationTitle("\(Int(viewModel.amount)) \(viewModel.baseCurrency)")
+        .navigationTitle("\(Int(viewModel.amount)) \(viewModel.baseCurrency.rawValue)")
         .onAppear(perform: viewModel.fetchData)
     }
 }
@@ -33,7 +35,7 @@ struct RatesView_Previews: PreviewProvider {
         RatesView(
             viewModel: RatesViewModel(
                 amount: 500,
-                baseCurrency: "USD"
+                baseCurrency: .aud
             )
         )
     }

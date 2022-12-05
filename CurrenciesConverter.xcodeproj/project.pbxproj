@@ -27,6 +27,8 @@
 		18499770293A30750065B6F4 /* CurrenciesNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18499759293A12FE0065B6F4 /* CurrenciesNetworkManager.swift */; };
 		18499774293A31700065B6F4 /* RatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18499771293A31620065B6F4 /* RatesViewModel.swift */; };
 		18499778293CE9120065B6F4 /* CurrenciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18499776293CE8EF0065B6F4 /* CurrenciesViewModel.swift */; };
+		1849977F293CEC770065B6F4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849977C293CEC240065B6F4 /* HomeView.swift */; };
+		18499781293CED030065B6F4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18499780293CED030065B6F4 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		18499767293A26820065B6F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		18499771293A31620065B6F4 /* RatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesViewModel.swift; sourceTree = "<group>"; };
 		18499776293CE8EF0065B6F4 /* CurrenciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesViewModel.swift; sourceTree = "<group>"; };
+		1849977C293CEC240065B6F4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		18499780293CED030065B6F4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +118,9 @@
 		1803A2C4293A058D0038487F /* CurrenciesConverter */ = {
 			isa = PBXGroup;
 			children = (
-				1849975B293A13660065B6F4 /* Models */,
-				18499758293A12EA0065B6F4 /* Managers */,
 				1803A2C5293A058D0038487F /* CurrenciesConverterApp.swift */,
 				1803A2C7293A058D0038487F /* ContentView.swift */,
 				1803A2C9293A058E0038487F /* Assets.xcassets */,
-				18499764293A211B0065B6F4 /* Screens */,
 				1803A2CB293A058F0038487F /* Preview Content */,
 				1849975C293A1B9D0065B6F4 /* EnvironmentConstants.swift */,
 				18499767293A26820065B6F4 /* Constants.swift */,
@@ -138,6 +139,9 @@
 		1803A2D6293A058F0038487F /* CurrenciesConverter Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				1849975B293A13660065B6F4 /* Models */,
+				18499758293A12EA0065B6F4 /* Managers */,
+				18499764293A211B0065B6F4 /* Screens */,
 				1803A2D7293A058F0038487F /* CurrenciesConverterApp.swift */,
 				1803A2D9293A058F0038487F /* ContentView.swift */,
 				1803A2DB293A058F0038487F /* Assets.xcassets */,
@@ -176,6 +180,7 @@
 			children = (
 				18499773293A31670065B6F4 /* RatesScreen */,
 				18499775293A349C0065B6F4 /* CurrenciesScreen */,
+				1849977B293CEB530065B6F4 /* HomeScreen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -196,6 +201,15 @@
 				18499776293CE8EF0065B6F4 /* CurrenciesViewModel.swift */,
 			);
 			path = CurrenciesScreen;
+			sourceTree = "<group>";
+		};
+		1849977B293CEB530065B6F4 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1849977C293CEC240065B6F4 /* HomeView.swift */,
+				18499780293CED030065B6F4 /* HomeViewModel.swift */,
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,7 +333,9 @@
 				1803A2DA293A058F0038487F /* ContentView.swift in Sources */,
 				1849976D293A2D520065B6F4 /* Constants.swift in Sources */,
 				1803A2D8293A058F0038487F /* CurrenciesConverterApp.swift in Sources */,
+				18499781293CED030065B6F4 /* HomeViewModel.swift in Sources */,
 				1849976A293A2BB80065B6F4 /* RatesView.swift in Sources */,
+				1849977F293CEC770065B6F4 /* HomeView.swift in Sources */,
 				18499774293A31700065B6F4 /* RatesViewModel.swift in Sources */,
 				1849976F293A2D580065B6F4 /* EnvironmentConstants.swift in Sources */,
 			);

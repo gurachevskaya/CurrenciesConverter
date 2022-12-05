@@ -17,6 +17,19 @@ enum CurrencyType: String, Codable, CaseIterable {
         UserDefaults.standard.set(data, forKey: Constants.Keys.selectedCurrenciesKey)
     }
     
+//    static func getSelectedCurrency() -> CurrencyType {
+//        do {
+//            if let data = UserDefaults.standard.data(forKey: Constants.Keys.previousBaseCurrencyKey) {
+//                let currency = try JSONDecoder().decode(CurrencyType.self, from: data)
+//                return currency
+//            }
+//        } catch {
+//            // Do nothing: nothing was found
+//        }
+//        
+//        return .usd
+//    }
+    
     static func getCurrencies() -> [CurrencyType] {
         do {
             if let data = UserDefaults.standard.data(forKey: Constants.Keys.selectedCurrenciesKey) {

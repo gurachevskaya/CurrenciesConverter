@@ -14,11 +14,11 @@ final class RatesViewModel: ObservableObject {
     }
     
     let amount: Double
-    let baseCurrency: String
+    let baseCurrency: CurrencyType
     
     init(
         amount: Double,
-        baseCurrency: String
+        baseCurrency: CurrencyType
     ) {
         self.amount = amount
         self.baseCurrency = baseCurrency
@@ -62,7 +62,7 @@ final class RatesViewModel: ObservableObject {
     
     func saveAmountAndBaseCurrency() {
         UserDefaults.standard.set(amount, forKey: Constants.Keys.previousAmountKey)
-        UserDefaults.standard.set(baseCurrency, forKey: Constants.Keys.previousBaseCurrencyKey)
+        UserDefaults.standard.set(baseCurrency.rawValue, forKey: Constants.Keys.previousBaseCurrencyKey)
     }
     
     func fetchData() {
